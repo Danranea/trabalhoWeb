@@ -1,0 +1,129 @@
+.main-nav {
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: -10px;
+    height: 70px;
+    color: #fff;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.main-menu {
+    display: flex;
+    font-size: 18px;
+    margin-left: 250px;
+    margin-top: 20px;
+    width: 150px;
+    justify-content: space-between;
+    font-style: normal;
+    list-style: none;
+}
+
+.nav-logo-text {
+    color: #fff;
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.nav-home {
+    color: #fff;
+}
+
+.product-card {
+    padding: 20px 20px 30px 20px;
+    text-align: center;
+    width: 700px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.product-info {
+    border-top: 1px solid #E1E1E1;
+    text-align: left;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.product-name {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.015em;
+    color: #263238;
+}
+
+.product-price {
+    display: flex;
+    margin-left: -90px;
+    margin-top: 30px;
+}
+
+.product-price-valor {
+    display: flex;
+    margin-top: -25px;
+    margin-left: 60px;
+}
+
+.product-price-total {
+    display: flex;
+    margin-top: 60px;
+    margin-left: -90px;
+}
+
+.product-price-valor-final {
+    display: flex;
+    margin-top: -25px;
+    margin-left: 60px;
+}
+
+.product-card-image {
+    width: 180px;
+    height: 250px;
+    display: block;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.product-details-card {
+    border: 1px solid #E1E1E1;
+    border-radius: 20px;
+    padding: 60px 125px;
+    height: 215px;
+}
+
+.product-resumo-pedido {
+    font-size: 20px;
+    margin-top: -40px;
+    margin-left: -87px;
+    text-align: center;
+}
+
+.product-description-text {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: -90px;
+    width: 300px;
+}
+
+.button-adicionar-produtos {
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 40px;
+    color: white;
+    background-color: #007bff;
+}
+
+.calcular-frete {
+    margin-top: 30px;
+}
+
+.button-finalizar-compra {
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 40px;
+    color: white;
+    background-color: #007bff;
+}
+
+.cart-img {
+    width: 20px;
+}

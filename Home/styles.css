@@ -1,0 +1,140 @@
+.main-nav {
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: -10px;
+    height: 70px;
+    color: #fff;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.main-menu {
+    display: flex;
+    font-size: 18px;
+    margin-left: 250px;
+    margin-top: 20px;
+    width: 150px;
+    justify-content: space-between;
+    font-style: normal;
+    list-style: none;
+}
+
+.nav-logo-text {
+    color: #fff;
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.nav-home {
+    color: #fff;
+}
+
+.product-filters-container {
+    width: 70%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 5px auto;
+}
+
+.input-search {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e1e1e1;
+    border-radius: 30px;
+}
+
+.input {
+    border: none;
+    color: #9e9e9e;
+    box-shadow: none;
+}
+
+.product-card {
+    padding: 20px 20px 30px 20px;
+    text-align: center;
+    width: 250px;
+    margin-left: 50px;
+}
+
+.product-info {
+    border-top: 1px solid #E1E1E1;
+    text-align: left;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.product-name {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.015em;
+    color: #263238;
+}
+
+.product-card-image {
+    width: 120px;
+    height: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-price {
+    color: #263238;
+}
+
+.product-quantity {
+    color: #263238;
+}
+
+.product-status {
+    color: #263238;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    color: black;
+}
+
+.rating>span {
+    display: inline-block;
+    position: relative;
+    color: rgb(255, 255, 0);
+    width: 2em;
+    height: 2em;
+}
+
+.rating>span:hover:before,
+.rating>span:hover~span:before {
+    content: "\2605";
+    position: absolute;
+    color: rgb(255, 255, 0);
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    align-items: center;
+    outline: none;
+}
+
+.page-item {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #E1e1e1;
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.015em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.cart-img {
+    width: 20px;
+}

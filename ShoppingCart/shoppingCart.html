@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../ShoppingCart/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <title>Carrinho de Compra</title>
+</head>
+
+<body>
+    <nav class="row bg-primary main-nav">
+        <div class="col2">
+
+            <a class="nav-logo-text" href="../Home/index.html">Senac Books</a>
+
+        </div>
+        <div class="col-6 offset-4">
+            <ul class="main-menu">
+                <li class="mr-5">
+                    <a class="nav-home" href="index.html">
+                    HOME
+                    </a>
+                </li>
+                <li class="mr-5">
+                    Login
+                </li>
+                <li>
+                    <a href="../ShoppingCart/shoppingCart.html">
+                        <img class="cart-img" src="../imagem/shopping-cart_icon-icons.com_72552.png" alt="carrinho">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="card border-radius-20 product-card">
+        <div class="row">
+            <div class="col-5 pr-3">
+                <img src="../imagem/Foto.PNG" alt="imagem" class="product-card-image" />
+                <div class="product-info">
+                    <input type="text" placeholder="  -                 1                 + " disabled>
+                    <br>
+                    <br>
+                    <input type="text" placeholder="              R$ 46,70 " disabled>
+                    <h6 class="product-name">
+                        Administração Geral e Profissional
+                    </h6>
+
+                </div>
+            </div>
+            <div class="col-7">
+                <div class="product-details-card">
+                    <h1 class="product-resumo-pedido">RESUMO DO PEDIDO</h1>
+                    <div class="product-price mb-2">
+                        1 produto
+                    </div>
+                    <div class="product-price-valor mb-2">
+                        R$ 46,70
+                    </div>
+                    <div class="product-price-total mb-2">
+                        Total
+                    </div>
+                    <div class="product-price-valor-final mb-2">
+                        R$ 46,70
+                    </div>
+                </div>
+
+                <a href="../Home/index.html">
+                    <button class="btn button-adicionar-produtos">
+                    ADICIONAR MAIS PRODUTOS
+                </button>
+                </a>
+
+                <div>
+                    <h4 class="calcular-frete">
+                        Calcular Frete
+                    </h4>
+                </div>
+                <div>
+                    <input type="text" class="form-control cep-mask" placeholder="Ex.: 00000-000">
+                </div>
+
+                <button class="btn button-finalizar-compra">
+                    FINALIZAR COMPRA
+                </button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
