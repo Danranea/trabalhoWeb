@@ -138,3 +138,21 @@
 .cart-img {
     width: 20px;
 }
+
+@media (max-width: 375px) {
+    .main-menu {
+        display: flex;
+        font-size: 16px;
+        margin-top: auto;
+        margin-left: -95px;
+    }
+
+    .titulo {
+        margin-left: 85px;
+    }
+
+    .pagination-container {
+        display: none;
+    }
+
+}
